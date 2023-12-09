@@ -1,8 +1,8 @@
-# Aiden Merkal - Front-end Web Developer Portfolio
+# mishandeep kumar - Front-end Web Developer Portfolio
 
 ## Introduction
 
-Welcome to my web portfolio! I'm Aiden Merkal, a passionate front-end web developer. This portfolio showcases my skills, projects, and experiences in the field of web development.
+Welcome to my web portfolio! I'm mishandeep kumar, a passionate front-end web developer. This portfolio showcases my skills, projects, and experiences in the field of web development.
 
 ## About Me
 
