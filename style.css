@@ -1,0 +1,22 @@
+.footer .list-inline a{
+	text-decoration: none;
+}
+
+.about {
+	  background-image: linear-gradient(#EBF5FB, #40E0D0);
+}
+
+.portfolio{
+	background-image: linear-gradient(#EBF5FB, #40E0D0);
+}
+.contact_body{
+	background-image: linear-gradient(#EBF5FB, #40E0D0);
+}
+
+.rounded-square {
+	border-radius: 20px;
+	overflow: hidden;
+	width: 900px;
+	height: 400px;
+	object-fit: cover;
+}

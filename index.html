@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiden Merkal - Front-end Web Developer</title>
+  <!--Bootstrap CSS link -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!--Google Fonts link-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav role="navigation" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Aiden Merkal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section aria-labelledby="hero-heading" class="hero bg-primary text-white text-center py-5">
+      <div class="container">
+        <h1 id="hero-heading" class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">I'm Aiden Merkal, a passionate front-end web developer.</p>
+        <a href="#portfolio" class="btn btn-light btn-lg">View Portfolio</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- About Section -->
+  <section aria-labelledby="about-heading" class="about py-5" id="about">
+    <div class="container">
+      <h2 id="about-heading" class="text-center">About Me</h2>
+      <div class="row">
+        <div class="col-md-6">
+        <img src="image/img_1.jpg" alt="Amelia Smith" class="img-fluid rounded-square">
+
+        </div>
+        <div class="col-md-6">
+          <p>I am Mishandeep kumar, a front-end web developer with a passion for creating visually appealing and
+            user-friendly websites. I specialize in HTML, CSS, JavaScript, and modern front-end frameworks like
+            Bootstrap. With a keen eye for design and attention to detail, I aim to create memorable web experiences
+            for users.</p>
+          <p>Throughout my journey as a web developer, I have worked on various projects, from simple landing pages to
+            complex web applications. My goal is to continually learn and improve my skills, staying up-to-date with
+            the latest web technologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">My Portfolio</h2>
+        <div class="row">
+          <!-- Item 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <picture>
+                <source srcset="image/img_2.png" media="(max-width: 767px)">
+                <source srcset="image/img_2.png" media="(min-width: 768px)">
+                <img src="image/img_2.png" alt="Project 1" class="card-img-top" style="height: 200px;">
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Responsive Website Redesign</h5>
+                <p class="card-text">Revamped an existing website to make it fully responsive and visually appealing.
+                  Implemented
+                  modern design principles and ensured compatibility across various devices.</p>
+                <a href="project1-details.html" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Item 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <picture>
+                <source srcset="image/img_3.png" media="(max-width: 767px)">
+                <source srcset="image/img_3.png" media="(min-width: 768px)">
+                <img src="image/img_3.png" alt="Project 2" class="card-img-top" style="height: 200px;">
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">E-commerce Website</h5>
+                <p class="card-text">Contributed to the development of a robust e-commerce platform. Implemented features
+                  such as
+                  product catalog, user authentication, and secure payment processing.</p>
+                <a href="project2-details.html" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Item 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <picture>
+                <source srcset="image/img_4.png" media="(max-width: 767px)">
+                <source srcset="image/img_4.png" media="(min-width: 768px)">
+                <img src="image/img_4.png" alt="Project 3" class="card-img-top" style="height: 200px;">
+              </picture>
+              <div class="card-body">
+                <h5 class="card-title">Interactive Landing Page</h5>
+                <p class="card-text">Crafted an engaging Interactive Landing Page with captivating visuals and dynamic
+                  elements. Implemented JavaScript and
+                  CSS animations to create an immersive user experience.</p>
+                <a href="project3-details.html" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <h2 class="text-center">Contact Mishandeep</h2>
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+            <form action="submit_form.php" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>2023 mishandeep kumar - Front-end Web Developer</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-light">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="#" class="text-light">Terms of Service</a></li>
+            <li class="list-inline-item"><a href="#" class="text-light">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Link to Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
